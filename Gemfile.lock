@@ -120,6 +120,7 @@ PLATFORMS
 
 DEPENDENCIES
   diagrams-rb (~> 0.1.0)
+  ffi (~> 1.17)
   jekyll (~> 4.3.4)
   just-the-docs (= 0.10.0)
   pry (~> 0.14.2)
