@@ -1,8 +1,15 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Ruby Diagrams
+description: A simple Ruby DSL to write a Graphviz dot file of clould architecture diagrams.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+color_scheme: dark
+
+url: https://g-omahony.github.io/diagrams-rb-docs
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Github: https://github.com/g-omahony/diagrams-rb
+
+enable_copy_code_button: true
+
+sass:
+  quiet_deps: true
