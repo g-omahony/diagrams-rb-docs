@@ -22,7 +22,7 @@ class ResourceWriter # rubocop:disable Style/Documentation
         write_to_file(
           icons_dir,
           parts.first,
-          "|\!\[\]\({{ '#{file_path.gsub('/site', '')}' \| absolute_url }}\)#{icon_fmt}" \
+          "|\!\[\]\({{ '#{file_path.gsub('/site', '')}' \| relative_url }}\)#{icon_fmt}" \
           "|`#{namespace}.#{method.gsub('-', '_')}`#{method_fmt}|\n"
         )
       end

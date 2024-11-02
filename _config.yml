@@ -4,7 +4,8 @@ theme: just-the-docs
 
 color_scheme: dark
 
-url: https://g-omahony.github.io/diagrams-rb-docs
+baseurl: '/diagrams-rb-docs'
+url: 'https://g-omahony.github.io'
 
 aux_links:
   Github: https://github.com/g-omahony/diagrams-rb
