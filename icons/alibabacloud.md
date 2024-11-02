@@ -1,0 +1,103 @@
+---
+title: alibabacloud
+parent: Sources
+layout: page
+nav_enabled: true
+---
+
+| Icon | Source |
+|-----|-----|
+|![]({{ '/icons/alibabacloud/analytics/analytic-db.png' | relative_url }}){: width="22" }|`Alibabacloud::Analytics.analytic_db`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/analytics/click-house.png' | relative_url }}){: width="22" }|`Alibabacloud::Analytics.click_house`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/analytics/data-lake-analytics.png' | relative_url }}){: width="22" }|`Alibabacloud::Analytics.data_lake_analytics`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/analytics/elatic-map-reduce.png' | relative_url }}){: width="22" }|`Alibabacloud::Analytics.elatic_map_reduce`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/analytics/open-search.png' | relative_url }}){: width="22" }|`Alibabacloud::Analytics.open_search`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/api-gateway.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.api_gateway`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/bee-bot.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.bee_bot`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/blockchain-as-a-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.blockchain_as_a_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/cloud-call-center.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.cloud_call_center`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/code-pipeline.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.code_pipeline`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/direct-mail.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.direct_mail`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/log-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.log_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/message-notification-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.message_notification_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/node-js-performance-platform.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.node_js_performance_platform`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/open-search.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.open_search`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/performance-testing-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.performance_testing_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/rd-cloud.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.rd_cloud`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/smart-conversation-analysis.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.smart_conversation_analysis`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/application/yida.png' | relative_url }}){: width="22" }|`Alibabacloud::Application.yida`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/communication/direct-mail.png' | relative_url }}){: width="22" }|`Alibabacloud::Communication.direct_mail`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/communication/mobile-push.png' | relative_url }}){: width="22" }|`Alibabacloud::Communication.mobile_push`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/auto-scaling.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.auto_scaling`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/batch-compute.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.batch_compute`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/container-registry.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.container_registry`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/container-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.container_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/elastic-compute-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.elastic_compute_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/elastic-container-instance.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.elastic_container_instance`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/elastic-high-performance-computing.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.elastic_high_performance_computing`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/elastic-search.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.elastic_search`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/function-compute.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.function_compute`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/operation-orchestration-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.operation_orchestration_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/resource-orchestration-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.resource_orchestration_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/server-load-balancer.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.server_load_balancer`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/serverless-app-engine.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.serverless_app_engine`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/simple-application-server.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.simple_application_server`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/compute/web-app-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Compute.web_app_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/apsaradb-cassandra.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.apsaradb_cassandra`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/apsaradb-hbase.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.apsaradb_hbase`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/apsaradb-memcache.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.apsaradb_memcache`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/apsaradb-mongodb.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.apsaradb_mongodb`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/apsaradb-oceanbase.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.apsaradb_oceanbase`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/apsaradb-polardb.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.apsaradb_polardb`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/apsaradb-postgresql.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.apsaradb_postgresql`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/apsaradb-ppas.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.apsaradb_ppas`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/apsaradb-redis.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.apsaradb_redis`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/apsaradb-sqlserver.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.apsaradb_sqlserver`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/data-management-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.data_management_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/data-transmission-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.data_transmission_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/database-backup-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.database_backup_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/disribute-relational-database-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.disribute_relational_database_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/graph-database-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.graph_database_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/hybriddb-for-mysql.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.hybriddb_for_mysql`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/database/relational-database-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Database.relational_database_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/iot/iot-internet-device-id.png' | relative_url }}){: width="22" }|`Alibabacloud::Iot.iot_internet_device_id`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/iot/iot-link-wan.png' | relative_url }}){: width="22" }|`Alibabacloud::Iot.iot_link_wan`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/iot/iot-mobile-connection-package.png' | relative_url }}){: width="22" }|`Alibabacloud::Iot.iot_mobile_connection_package`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/iot/iot-platform.png' | relative_url }}){: width="22" }|`Alibabacloud::Iot.iot_platform`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/network/cdn.png' | relative_url }}){: width="22" }|`Alibabacloud::Network.cdn`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/network/cloud-enterprise-network.png' | relative_url }}){: width="22" }|`Alibabacloud::Network.cloud_enterprise_network`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/network/elastic-ip-address.png' | relative_url }}){: width="22" }|`Alibabacloud::Network.elastic_ip_address`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/network/express-connect.png' | relative_url }}){: width="22" }|`Alibabacloud::Network.express_connect`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/network/nat-gateway.png' | relative_url }}){: width="22" }|`Alibabacloud::Network.nat_gateway`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/network/server-load-balancer.png' | relative_url }}){: width="22" }|`Alibabacloud::Network.server_load_balancer`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/network/smart-access-gateway.png' | relative_url }}){: width="22" }|`Alibabacloud::Network.smart_access_gateway`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/network/virtual-private-cloud.png' | relative_url }}){: width="22" }|`Alibabacloud::Network.virtual_private_cloud`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/network/vpn-gateway.png' | relative_url }}){: width="22" }|`Alibabacloud::Network.vpn_gateway`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/anti-bot-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.anti_bot_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/anti-ddos-basic.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.anti_ddos_basic`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/anti-ddos-pro.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.anti_ddos_pro`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/antifraud-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.antifraud_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/bastion-host.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.bastion_host`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/cloud-firewall.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.cloud_firewall`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/cloud-security-scanner.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.cloud_security_scanner`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/content-moderation.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.content_moderation`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/crowdsourced-security-testing.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.crowdsourced_security_testing`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/data-encryption-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.data_encryption_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/db-audit.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.db_audit`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/game-shield.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.game_shield`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/id-verification.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.id_verification`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/managed-security-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.managed_security_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/security-center.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.security_center`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/server-guard.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.server_guard`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/ssl-certificates.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.ssl_certificates`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/security/web-application-firewall.png' | relative_url }}){: width="22" }|`Alibabacloud::Security.web_application_firewall`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/storage/cloud-storage-gateway.png' | relative_url }}){: width="22" }|`Alibabacloud::Storage.cloud_storage_gateway`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/storage/file-storage-hdfs.png' | relative_url }}){: width="22" }|`Alibabacloud::Storage.file_storage_hdfs`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/storage/file-storage-nas.png' | relative_url }}){: width="22" }|`Alibabacloud::Storage.file_storage_nas`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/storage/hybrid-backup-recovery.png' | relative_url }}){: width="22" }|`Alibabacloud::Storage.hybrid_backup_recovery`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/storage/hybrid-cloud-disaster-recovery.png' | relative_url }}){: width="22" }|`Alibabacloud::Storage.hybrid_cloud_disaster_recovery`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/storage/imm.png' | relative_url }}){: width="22" }|`Alibabacloud::Storage.imm`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/storage/object-storage-service.png' | relative_url }}){: width="22" }|`Alibabacloud::Storage.object_storage_service`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/storage/object-table-store.png' | relative_url }}){: width="22" }|`Alibabacloud::Storage.object_table_store`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/web/dns.png' | relative_url }}){: width="22" }|`Alibabacloud::Web.dns`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|
+|![]({{ '/icons/alibabacloud/web/domain.png' | relative_url }}){: width="22" }|`Alibabacloud::Web.domain`{: .language-ruby .highlighter-rouge .highlight style="font-size: 14px"}|

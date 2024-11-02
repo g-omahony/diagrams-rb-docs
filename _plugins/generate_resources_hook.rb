@@ -1,10 +1,11 @@
 # frozen_string_literal: true
 
 require 'diagrams-rb'
+require 'pry'
 
 Jekyll::Hooks.register :site, :after_init do
-  ResourceWriter.clean_icons_dir
-  ResourceWriter.write_md
+  # ResourceWriter.clean_icons_dir
+  # ResourceWriter.write_md
 end
 
 class ResourceWriter # rubocop:disable Style/Documentation
