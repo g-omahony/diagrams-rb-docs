@@ -8,6 +8,6 @@ gem 'jekyll', '~> 4.3.4' # installed by `gem jekyll`
 gem 'just-the-docs', '0.10.0' # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
 gem 'diagrams-rb', '~> 0.1.0'
-
+gem 'ffi', '~> 1.17'
 gem 'pry', '~> 0.14.2'
 gem 'pry-byebug', '~> 3.10', '>= 3.10.1'
