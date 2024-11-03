@@ -15,11 +15,12 @@ This Ruby-based DSL allows you to create complex Graphviz DOT diagrams programma
 - Define nested clusters to group nodes hierarchically.
 - Generates a Graphviz `.dot` file, compatible with Graphviz tools for rendering diagrams.
 
+
 ### Example DOT File Generated
 
-The following Ruby code:
 
-```Ruby
+The following Ruby code:
+~~~
 
 require 'diagrams-rb'
 
@@ -35,7 +36,8 @@ module Diagrams
   end
 end
 
-```
+~~~
+{: .language-ruby}
 
 will generate the following `.dot` file:
 
