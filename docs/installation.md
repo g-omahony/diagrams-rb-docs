@@ -6,7 +6,19 @@ nav_order: 1
 ---
 # Installation
 
-To use this DSL and render the `.dot` files it generates, you need to install **Graphviz**. Graphviz provides the CLI for converting `.dot` files into images.
+Add this line to your application's Gemfile:
+
+```Ruby
+gem 'diagrams-rb', '~> 0.1'
+```
+
+or install:
+
+```Ruby
+gem install diagrams-rb
+```
+
+To use this DSL and render the `.dot` files it generates, you need to install [Graphviz](https://graphviz.org). Graphviz provides the CLI for converting `.dot` files into images.
 
 ## Installing Graphviz
 
