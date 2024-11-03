@@ -8,13 +8,13 @@ nav_order: 1
 
 Add this line to your application's Gemfile:
 
-```Ruby
+```ruby
 gem 'diagrams-rb', '~> 0.1'
 ```
 
 or install:
 
-```Ruby
+```ruby
 gem install diagrams-rb
 ```
 
