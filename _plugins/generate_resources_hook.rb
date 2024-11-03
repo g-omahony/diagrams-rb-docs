@@ -3,9 +3,9 @@
 require 'diagrams-rb'
 require 'pry'
 
-Jekyll::Hooks.register :site, :after_init do
-  # ResourceWriter.clean_icons_dir
-  # ResourceWriter.write_md
+Jekyll::Hooks.register :site, :pre_render do
+  ResourceWriter.clean_icons_dir
+  ResourceWriter.write_md
 end
 
 class ResourceWriter # rubocop:disable Style/Documentation
