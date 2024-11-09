@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'diagrams-rb'
-require 'pry'
+# require 'pry'
 
 Jekyll::Hooks.register :site, :pre_render do
   ResourceWriter.clean_icons_dir
