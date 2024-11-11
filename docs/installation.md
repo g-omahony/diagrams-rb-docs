@@ -9,7 +9,7 @@ nav_order: 1
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'diagrams-rb', '~> 0.0.2'
+gem 'diagrams-rb', '~> 0.0.3'
 ```
 
 or install:
