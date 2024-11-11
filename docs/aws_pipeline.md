@@ -41,7 +41,7 @@ end
 
 will produce the following image:
 
-![]({{ '/images/data_pipeline.png' | relative_url }})
+![]({{ '/assets/images/data_pipeline.png' | relative_url }})
 
 This can be extended to a more complex example which illustrates the use of some of the additional Graphviz attributes:
 
@@ -111,6 +111,6 @@ end
 
 will produce the following image:
 
-![]({{ '/images/data_pipeline_complex.png' | relative_url }})
+![]({{ '/assets/images/data_pipeline_complex.png' | relative_url }})
 
 Architecture diagram taken from the [AWS documentation](https://docs.aws.amazon.com/solutions/latest/clickstream-analytics-on-aws/architecture-overview.html)

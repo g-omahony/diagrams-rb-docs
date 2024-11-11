@@ -14,6 +14,7 @@ This Ruby-based DSL allows you to create complex Graphviz DOT diagrams programma
 - Easily create connections (edges) between nodes.
 - Define nested clusters to group nodes hierarchically.
 - Generates a Graphviz `.dot` file, compatible with Graphviz tools for rendering diagrams.
+- Generate images in many [formats](https://graphviz.org/docs/outputs/) such as `png`(the default if no format is provided), `jpg`, `pdf`, `eps` etc.
 
 
 ### Example DOT File Generated
@@ -53,7 +54,6 @@ digraph G {
 		ranksep=0.75,
 		splines=ortho
 	];
-	node [label="\N"];
 	subgraph cluster_AWS_Cloud {
 		graph [bb="147,8,419,151",
 			bgcolor="#E5F5FD",
@@ -125,6 +125,6 @@ digraph G {
 ~~~
 {: .language-dot}
 
-which will produce the following image:
+which will produce the following image if the input format is changed to `png`:
 
-![]({{ '/images/aws_lambda.png' | relative_url }})
+![]({{ '/assets/images/aws_lambda.png' | relative_url }})
