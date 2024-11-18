@@ -9,7 +9,12 @@ nav_enabled: true
 
 In this example the Digraph has a top to bottom direction as defined by the `rankdir` variable.
 
-This code:
+The following image:
+
+![]({{ '/assets/images/k8s_cluster.png' | relative_url }})
+
+was generated with this code:
+
 ~~~
 require 'diagrams-rb'
 
@@ -65,9 +70,5 @@ end
 
 ~~~
 {: .language-ruby}
-
-will produce the following image:
-
-![]({{ '/assets/images/k8s_cluster.png' | relative_url }})
 
 Architecture diagram taken from the [Kubernetes documentation](https://kubernetes.io/docs/concepts/architecture/)

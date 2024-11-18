@@ -7,7 +7,12 @@ nav_enabled: true
 
 ## Azure Machine Learning
 
-This code:
+The following image:
+
+![]({{ '/assets/images/azure_machine_learning.png' | relative_url }})
+
+was generated with this code:
+
 ~~~
 require 'diagrams-rb'
 
@@ -34,9 +39,4 @@ end
 ~~~
 {: .language-ruby}
 
-will produce the following image:
-
-![]({{ '/assets/images/azure_machine_learning.png' | relative_url }})
-
 Architecture diagram taken from the [Azure documentation](https://azure.microsoft.com/en-us/solutions/ai/data-scientist-resources)
-

@@ -9,7 +9,12 @@ nav_enabled: true
 
 In this example the Digraph has a left to right direction as defined by the `rankdir` variable. The separation between the nodes is defined by the `ranksep` parameter and minimal border padding around the image by `pad`.
 
-This code:
+The following image:
+
+![]({{ '/assets/images/data_pipeline.png' | relative_url }})
+
+was generated with this code:
+
 ~~~
 require 'diagrams-rb'
 
@@ -38,10 +43,6 @@ module Diagrams
 end
 ~~~
 {: .language-ruby}
-
-will produce the following image:
-
-![]({{ '/assets/images/data_pipeline.png' | relative_url }})
 
 This can be extended to a more complex example which illustrates the use of some of the additional Graphviz attributes:
 
@@ -109,7 +110,7 @@ end
 ~~~
 {: .language-ruby}
 
-will produce the following image:
+to produce the following image:
 
 ![]({{ '/assets/images/data_pipeline_complex.png' | relative_url }})
 
