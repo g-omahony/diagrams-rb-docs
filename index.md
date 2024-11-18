@@ -11,6 +11,7 @@ This Ruby-based DSL allows you to create complex Graphviz DOT diagrams programma
 ### Features
 
 - Define nodes with attributes like labels, images, shapes, and sizes.
+- Use the provided [sources](./docs/sources.html) icons for node images.
 - Easily create connections (edges) between nodes.
 - Define nested clusters to group nodes hierarchically.
 - Generates a Graphviz `.dot` file, compatible with Graphviz tools for rendering diagrams.
@@ -26,7 +27,7 @@ The following Ruby code:
 require 'diagrams-rb'
 
 module Diagrams
-  Digraph.new(rankdir: 'LR', format: 'dot') do
+  Digraph.new(rankdir: 'LR', format: 'dot', pad: 0.5) do
     node :client, label: 'Client', icon: Onprem::Client.client, labelloc: 'c'
     cluster 'AWS Cloud' do
       node :sqs, label: 'Amazon SQS', icon: Aws::Integration.simple_queue_service_sqs
@@ -49,7 +50,7 @@ digraph G {
 		fontname="Sans-Serif",
 		fontsize=15,
 		nodesep=0.60,
-		pad=2.0,
+		pad=0.5,
 		rankdir=LR,
 		ranksep=0.75,
 		splines=ortho
